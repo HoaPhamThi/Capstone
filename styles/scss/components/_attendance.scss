@@ -1,0 +1,31 @@
+@import '../variable.scss';
+
+.components {
+    &__attendance {
+        .student__info-table {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .student__info-img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .attendance__status {
+            font-weight: bold;
+        }
+
+        .attendance__status-present {
+            color: $success;
+        }
+
+        .attendance__status-absent {
+            color: $danger;
+        }
+
+        .attendance__status-not-yet {
+            color: $primary;
+        }
+    }
+}

@@ -1,0 +1,358 @@
+.pages {
+    &__login {
+        /** Login 27 start **/
+        .login-27 {
+            top: 0;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            opacity: 1;
+            z-index: 999;
+            min-height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0;
+            // background-image: linear-gradient(to bottom, #e2d6d6, #f7eded);
+            background-color: #4682b4;
+        }
+
+        .login-27 .form-section {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 60px;
+            border-radius: 30px;
+            z-index: 999;
+            position: relative;
+            background-image: linear-gradient(to bottom, #d9a513, #f93b3b);
+        }
+
+        .login-27 h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            font-family: 'Jost', sans-serif;
+        }
+
+        .login-27 .extra-login {
+            float: left;
+            width: 100%;
+            margin-bottom: 25px;
+            text-align: center;
+            position: relative;
+        }
+
+        .login-27 .extra-login::before {
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 100%;
+            height: 1px;
+            background: #e7e7e79e;
+            content: '';
+        }
+
+        .login-27 .extra-login > span {
+            width: auto;
+            float: none;
+            display: inline-block;
+            background: #ff5a00;
+            padding: 1px 20px;
+            z-index: 1;
+            position: relative;
+            font-size: 15px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+
+        .login-27 .form-section a {
+            text-decoration: none;
+        }
+
+        .login-27 #particles-js {
+            background-size: cover;
+            background-position: 50% 50%;
+            position: fixed;
+            min-height: 100vh;
+            width: 100%;
+            z-index: -999;
+        }
+
+        .login-27 .form-section p {
+            color: #fff;
+            margin-bottom: 0;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .login-27 .form-section p a {
+            color: #fff;
+        }
+
+        .login-27 .form-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .login-27 .logo-2 img {
+            margin-bottom: 20px;
+            height: 30px;
+        }
+
+        .login-27 .form-section .social-list li {
+            display: inline-block !important;
+            margin-bottom: 5px;
+        }
+
+        .login-27 .form-section .social-list li a {
+            font-size: 14px;
+            font-weight: 500;
+            width: 130px;
+            margin-bottom: 5px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 0;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            background: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            font-family: 'Jost', sans-serif;
+        }
+
+        .login-27 .form-section .social-list li a i {
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            float: left;
+            color: #fff;
+        }
+
+        .login-27 .form-section .social-list li a span {
+            margin-right: 7px;
+        }
+
+        .login-27 .form-section .thembo {
+            margin-left: 4px;
+            cursor: pointer;
+        }
+
+        .login-27 h1 {
+            margin: 0 0 40px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        .login-27 .form-section .form-group {
+            margin-bottom: 25px;
+        }
+
+        .login-27 .form-section .form-control {
+            font-size: 16px;
+            outline: none;
+            background: #fff;
+            color: #535353;
+            border-radius: 3px;
+            border: 1px solid #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            float: left;
+            width: 100%;
+            padding: 12px 20px 12px 20px;
+            height: 55px;
+        }
+
+        .login-27 .form-section .checkbox .terms {
+            margin-left: 3px;
+        }
+
+        .login-27 .form-section button:focus {
+            outline: none;
+            outline: 0 auto -webkit-focus-ring-color;
+        }
+
+        .login-27 .form-section .terms {
+            margin-left: 3px;
+        }
+
+        .login-27 .form-section .form-check-input {
+            width: 20px;
+            height: 20px;
+            margin-top: 0px;
+            position: absolute;
+            border: 1px solid #fff;
+            border-radius: 2px;
+            background-color: #fff;
+            margin-left: -22px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-27 .form-section .form-check {
+            float: left;
+            margin-bottom: 0;
+        }
+
+        .login-27 .form-section .form-check a {
+            color: #fff;
+        }
+
+        .login-27 .form-section .form-check-label {
+            padding-left: 5px;
+            margin-bottom: 0;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .login-27 .form-check-input:checked {
+            background-color: #132b83;
+            border-color: #132b83;
+        }
+
+        .login-27 .form-section a.forgot-password {
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .login-27 .btn-theme {
+            color: #fff;
+            text-align: center;
+            border: 2px solid transparent;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            transition: all 0.7s ease;
+            border-radius: 3px;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: 'Jost', sans-serif;
+            width: 100%;
+        }
+
+        .login-27 .btn-theme:before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.7s ease;
+            z-index: -1;
+            border-radius: 3px;
+        }
+
+        .login-27 .btn-theme:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.7s ease;
+            z-index: -1;
+        }
+
+        .login-27 .btn-theme:hover {
+            background: transparent;
+        }
+
+        .login-27 .btn-theme:hover:before {
+            width: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .login-27 .btn-theme:hover:after {
+            width: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .login-27 .btn-lg {
+            padding: 0 50px;
+            line-height: 51px;
+        }
+
+        .login-27 .btn {
+            box-shadow: none !important;
+        }
+
+        .login-27 .btn-md {
+            padding: 0 45px;
+            line-height: 41px;
+        }
+
+        .login-27 .btn-primary {
+            background: #132b83;
+        }
+
+        .login-27 .btn-primary:before {
+            background: #132b83;
+        }
+
+        .login-27 .btn-primary:after {
+            background: #132b83;
+        }
+
+        .login-27 .btn-primary:hover {
+            color: #132b83;
+            border: 2px solid #132b83;
+        }
+
+        /** Social media **/
+        .login-27 .facebook-i {
+            background: #4867aa;
+        }
+
+        .login-27 .twitter-i {
+            background: #33ccff;
+        }
+
+        .login-27 .google-i {
+            background: #db4437;
+        }
+
+        .login-27 .facebook-color {
+            color: #4867aa;
+        }
+
+        .login-27 .twitter-color {
+            color: #33ccff;
+        }
+
+        .login-27 .google-color {
+            color: #db4437;
+        }
+
+        @media (max-width: 768px) {
+            .login-27 .form-section {
+                padding: 50px 30px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .login-27 .form-section .social-list li a i {
+                display: none;
+            }
+
+            .login-27 .form-section .social-list li a {
+                width: 100px;
+            }
+        }
+
+        /** Login 27 end **/
+    }
+}

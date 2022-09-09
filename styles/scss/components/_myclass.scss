@@ -1,0 +1,11 @@
+@import '../variable.scss';
+
+.components {
+    &__myclass {
+        .myclass__btn {
+            background-color: $secondary !important;
+            padding: 10px;
+            min-width: 170px;
+        }
+    }
+}

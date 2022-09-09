@@ -1,0 +1,63 @@
+@import '../variable.scss';
+
+.event-modal.event-profile {
+    .modal-dialog {
+        max-width: 100%;
+    }
+
+    .modal-right {
+        .media-body {
+            p {
+                color: #000;
+                margin-bottom: 0;
+                font-size: 14px !important;
+                font-weight: 500 !important;
+            }
+
+            .denger {
+                color: #e53632;
+            }
+        }
+    }
+
+    .personal-profile {
+        img {
+            width: 80%;
+            border-radius: 50%;
+        }
+    }
+
+    .media-body {
+        height: 100%;
+        width: 70%;
+    }
+
+    .form-check-label {
+        min-width: 100px;
+    }
+
+    .dis__input-profile {
+        background-color: #d2e6fa;
+        opacity: 1;
+        border-color: $primary;
+    }
+
+    .profile_btn-upload-img {
+        background-color: $secondary;
+        border-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .personal-profile {
+        flex-wrap: wrap;
+    }
+
+    .media-body {
+        flex-basis: 65%;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+}

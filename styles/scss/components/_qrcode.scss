@@ -1,0 +1,15 @@
+@import '../variable.scss';
+
+.components {
+    &__QRCode {
+        .QRCode__btn {
+            background-color: $secondary !important;
+            padding: 10px;
+            min-width: 170px;
+        }
+
+        .QRCode__btn-view-attendance {
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.pages {
+    &__notfound {
+        .error-page {
+            height: 100vh;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#fff4ef), to(#fff));
+            background-image: -webkit-linear-gradient(#fff4ef, #fff);
+            background-image: -o-linear-gradient(#fff4ef, #fff);
+            background-image: linear-gradient(#fff4ef, #fff);
+        }
+
+        .error-page .error-page-wrap {
+            display: inline-block;
+            position: relative;
+        }
+
+        .error-page h2 {
+            font-size: 200px;
+            font-weight: 700;
+            color: #5b6880;
+            background: transparent;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: var(--main-color-one);
+        }
+    }
+}
